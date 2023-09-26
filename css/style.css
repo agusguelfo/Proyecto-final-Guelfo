@@ -1,0 +1,186 @@
+/**Edición index.html**/
+
+/**Edición de Header**/
+
+header img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+header{
+    background-color: #231F20;
+}
+.list-nav{
+    font-family: 'ADLaM Display', cursive;
+    list-style: none;
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+    left: 800px;
+    bottom: 43px;
+  
+}
+.list-nav a {
+    text-decoration: none;   
+    color: white;
+}
+.list-nav a:hover {
+    color: #F5B6CD;
+}
+/**Edición de Main**/
+main iframe {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    bottom: 16px;   
+}
+.nuevas-incorporaciones {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F5B6CD;
+}
+/**Edición de article**/
+.jugador-1, .jugador-2, .jugador-3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 60px;
+    text-align: center;
+}
+.jugador-1 {
+    position: relative;
+    right: 50px;
+}
+.jugador-3 {
+    position: relative;
+    left: 50px;
+}
+.jugadores-contenedor {
+    display: flex;
+    justify-content: center;
+}
+article p {
+    position: relative;
+    bottom: 15px;
+}
+article img {
+    width: 400px;
+    height: 400px;
+}
+/**Edición de footer**/
+.text-1 , .text-2 , .text-3 {
+    font-family: 'Rubik', sans-serif;
+}
+.text-1, .text-2 {
+    font-weight: lighter;
+}
+.text-3 {
+    font-weight: bold;
+}
+footer ul li {
+    font-family: 'ADLaM Display', cursive;
+    list-style: none;
+    text-align: right;
+}
+footer ul li a {
+    text-decoration: none;   
+    color: black;
+}
+footer {
+    background-color: #F5B6CD;
+}
+/**Edición de indumentaria.html**/
+.remera-1, .remera-2, .remera-3 {
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 60px;
+    text-align: center;   
+}
+.ropa-contenedor {
+    display: flex;
+    justify-content: center;
+}
+.remera-1 {
+    position: relative;
+    right: 50px;
+}
+.remera-3 {
+    position: relative;
+    left: 50px;
+}
+.indumentaria-oficial{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F5B6CD;
+}
+/**Edición de información.html**/
+.club-img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 16px;
+}
+.club-img-2 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 20px;
+}
+.club-img-3 {
+    width: 100%;
+    height: 300px;
+}
+.image-fc {
+    width: 750px;
+    height: 500px;
+}
+.text-img {
+    font-family: 'Rubik', sans-serif;
+    font-size: 17px;
+}
+/**Edición de contacto.html**/
+.banner {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 16px;
+}
+.mini-banners {
+    width: 638px ;
+    height: 86.32px;
+ }
+ /**Edición de tienda.html**/
+ .tienda-img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    bottom: 16px;
+ }
+ .img-tienda {
+    width: 750px;
+    height: 500px; 
+ }
+ 
+ 
+    
+
+    
+    
+
+   
+
+    
+    
+  
+        
+
+
