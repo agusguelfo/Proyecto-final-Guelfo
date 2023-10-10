@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--CSS-->
-   <link rel="stylesheet" href="../css/style.css">
-    <!--Fuentes-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Qwitcher+Grypen:wght@700&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
@@ -13,68 +12,106 @@
 </head>
 <body>
     <header>
-        <a href="../index.html"><img src="../img/logo.png.png" alt="Logo Inter de Miami FC"></a>
-        <nav> 
-           <ul>
-               <li class="list-nav">
-                <a href="../index.html">HOME</a>
-               </li>
-               <li class="list-nav">
-                <a href="../pages/informacion.html">INFORMACIÓN</a>
-               </li>
-               <li class="list-nav">
-                <a href="../pages/contacto.html">CONTACTO</a>
-               </li>
-               <li class="list-nav">
-                <a href="../pages/indumentaria.html">INDUMENTARIA</a>
-               </li>
-               <li class="list-nav">
-                <a href="../pages/tienda.html">TIENDA</a></li>
-           </ul>
-           </nav> 
-       </header>
-       <img class="tienda-img" src="../img/tienda.png" alt="club">
-<br> <br> <br>
-<div>
-<article>
-<a href="https://www.mlsstore.com/?query=inter%20miami%20primary%20jersey&_ref=p-SRP:m-SEARCH"><img class="img-tienda" src="../img/local-kit.jpeg" alt="local kit"></a>
-</article>
-<br>
-<article>
-<a href="https://www.mlsstore.com/?query=inter%20miami%20la%20palma%20jersey&_ref=p-SRP:m-SEARCH"><img class="img-tienda" src="../img/suplente.jpeg" alt="suplente kit"></a>
-</article>
-<br>
-<article>
-<a href="https://www.mlsstore.com/inter-miami-cf/men/t-32149941+ga-90+z-919178-4154776017?pageSize=72&sortOption=TopSellers"><img class="img-tienda" src="../img/hombre.jpeg" alt="hombre"></a>
-</article>
-<br>
-<article>
-<a href="https://www.mlsstore.com/inter-miami-cf/women/t-32148829+ga-79+z-938389-3220863252"><img class="img-tienda" src="../img/mujer.jpeg" alt="mujer"></a>
-</article>
-<br>
-<article>
-<a href="https://www.mlsstore.com/?query=inter%20miami%20adidas&_ref=p-SRP:m-SEARCH"><img class="img-tienda" src="../img/entrenamiento.jpeg" alt="entrenamiento"></a>
-</article>
-<br>
-<article>
-<a href="https://www.mlsstore.com/?query=inter%20miami%20hats&_ref=p-SRP:m-SEARCH"><img class="img-tienda" src="../img/gorras.jpeg" alt="gorras"></a>
-</article>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="../index.html"><img class="logo-1" src="../img/logo.png.png" alt="Logo Inter de Miami FC"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/informacion.html">INFORMACIÓN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/indumentaria.html">INDUMENTARIA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/tienda.html">TIENDA</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <img class="tienda-img img-fluid" src="../img/tienda.png" alt="club">
+    <br>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <article class="text-center">
+                <a href="https://www.mlsstore.com/?query=inter%20miami%20primary%20jersey&_ref=p-SRP:m-SEARCH">
+                    <img class="img-tienda img-fluid" src="../img/local-kit.jpeg" alt="local kit">
+                </a>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="text-center">
+                <a href="https://www.mlsstore.com/?query=inter%20miami%20la%20palma%20jersey&_ref=p-SRP:m-SEARCH">
+                    <img class="img-tienda img-fluid" src="../img/suplente.jpeg" alt="suplente kit">
+                </a>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="text-center">
+                <a href="https://www.mlsstore.com/inter-miami-cf/men/t-32149941+ga-90+z-919178-4154776017?pageSize=72&sortOption=TopSellers">
+                    <img class="img-tienda img-fluid" src="../img/hombre.jpeg" alt="hombre">
+                </a>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="text-center">
+                <a href="https://www.mlsstore.com/inter-miami-cf/women/t-32148829+ga-79+z-938389-3220863252">
+                    <img class="img-tienda img-fluid" src="../img/mujer.jpeg" alt="mujer">
+                </a>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="text-center">
+                <a href="https://www.mlsstore.com/?query=inter%20miami%20adidas&_ref=p-SRP:m-SEARCH">
+                    <img class="img-tienda img-fluid" src="../img/entrenamiento.jpeg" alt="entrenamiento">
+                </a>
+            </article>
+        </div>
+        <div class="col-md-4">
+            <article class="text-center">
+                <a href="https://www.mlsstore.com/?query=inter%20miami%20hats&_ref=p-SRP:m-SEARCH">
+                    <img class="img-tienda img-fluid" src="../img/gorras.jpeg" alt="gorras">
+                </a>
+            </article>
+        </div>
+    </div>
 </div>
-<br>
 <hr>
 <footer>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14320.438407614194!2d-80.1610244!3d26.1931127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d903c3c212f321%3A0xb818163d6d07a4f5!2sEstadio%20DRV%20PNK!5e0!3m2!1ses-419!2sar!4v1692737466826!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <div class="text-1"><p>El nombre de nuestro estadio amplifica el compromiso de AutoNation e Inter Miami a combatir el cáncer utilizando el poder del fútbol y su base de aficionados.<br></p></div>
-    <div class="text-2"><p>El estadio cuenta con capacidad para 21.000 aficionados.<br></p></div>
-    <div class="text-3"><p>Esperamos verlos en #DRVPNKStadium!</p></div>
-    <ul>
- <li><a href="https://twitter.com/InterMiamiCF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">TWITTER</a>
- </li>
- <li><a href="https://www.instagram.com/intermiamicf/">INSTAGRAM</a>
- </li>
- <li><a href="https://www.tiktok.com/@intermiamicf?lang=es">TIK TOK</a>
- </li>
- </ul>
- </footer>
- </body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14320.438407614194!2d-80.1610244!3d26.1931127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d903c3c212f321%3A0xb818163d6d07a4f5!2sEstadio%20DRV%20PNK!5e0!3m2!1ses-419!2sar!4v1692737466826!5m2!1ses-419!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-6">
+                <div class="text-1">
+                    <p>El nombre de nuestro estadio amplifica el compromiso de AutoNation e Inter Miami a combatir el cáncer utilizando el poder del fútbol y su base de aficionados.</p>
+                </div>
+                <div class="text-2">
+                    <p>El estadio cuenta con capacidad para 21.000 aficionados.</p>
+                </div>
+                <div class="text-3">
+                    <p>Esperamos verlos en #DRVPNKStadium!</p>
+                </div>
+                <ul class="social-links">
+                    <li class="text-foot"><a href="https://twitter.com/InterMiamiCF?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">TWITTER</a></li>
+                    <li class="text-foot"><a href="https://www.instagram.com/intermiamicf/">INSTAGRAM</a></li>
+                    <li class="text-foot"><a href="https://www.tiktok.com/@intermiamicf?lang=es">TIK TOK</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
  </html>
