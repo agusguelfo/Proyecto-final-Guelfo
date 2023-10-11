@@ -8,10 +8,10 @@ header img {
 /* Navegación */
 .navbar-nav {
     font-family: 'ADLaM Display', cursive;
-    font-size: 28px;
+    font-size: 30px;
     padding: 15px;
     position: relative;
-    left: 800px;
+    left: 500px;
 }
 .nav-link {
     color: #F5B6CD;

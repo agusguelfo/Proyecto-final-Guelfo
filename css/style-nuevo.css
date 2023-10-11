@@ -1,0 +1,12 @@
+@charset "UTF-8";
+header ¨ {
+  display: flex;
+  background-color: black; }
+  header ¨ ul {
+    font-size: 15px;
+    width: 500px;
+    display: flex;
+    gap: 33px; }
+    header ¨ ul li {
+      color: pink;
+      background-color: grey; }

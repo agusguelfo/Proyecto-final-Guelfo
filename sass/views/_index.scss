@@ -1,0 +1,13 @@
+header ¨{
+    display: flex;
+    background-color: $color-principal;
+ul { font-size: $font-principal;
+    width: 500px;
+    display: flex;
+    gap: $spacing-medium;
+li{ color: $textcolor;
+    background-color: $bg-secondary;
+}
+}
+}
+
