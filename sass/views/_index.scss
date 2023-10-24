@@ -1,13 +1,74 @@
-header ¨{
-    display: flex;
-    background-color: $color-principal;
-ul { font-size: $font-principal;
-    width: 500px;
-    display: flex;
-    gap: $spacing-medium;
-li{ color: $textcolor;
-    background-color: $bg-secondary;
+/**Edición de Index**/
+/**Edición de header**/
+.navbar {
+.logo-1 {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 40px;
+}
+ul {
+    font-family: 'ADLaM Display', cursive;
+    font-size: 23px;
+    padding: 15px;
+    position: relative;
+    left: 570px;
+.nav-link { 
+    color: #F5B6CD;
 }
 }
+}
+
+body {
+    background-color: #232323;
+}
+/**Main**/
+main iframe {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    bottom: 16px;
+}
+
+.nuevas-incorporaciones {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #F5B6CD;
+    width: 100%;
+}
+
+.jugadores-contenedor {
+    display: flex;
+    justify-content: center;
+    .jugador-1, .jugador-2, .jugador-3 {
+        font-family: 'Qwitcher Grypen', cursive;
+        font-size: 55px;
+        font-weight: bold;
+        padding: 17px;
+        color: whitesmoke;
+    }
+    article p {
+        position: relative;
+        bottom: 15px;
+    }
+    article img {
+        width: 400px;
+        height: 400px;
+    }
+}
+/**Footer**/
+footer {
+    background-color: #F5B6CD;
+    padding: 20px 0;
+    .text-foot {
+        font-family: 'ADLaM Display', cursive;  
+        list-style: none;
+    a{
+        color: #232323;
+        text-decoration: none;
+    }
+    }
 }
 
