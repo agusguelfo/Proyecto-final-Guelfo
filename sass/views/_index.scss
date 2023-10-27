@@ -13,9 +13,14 @@ ul {
     padding: 15px;
     position: relative;
     left: 570px;
-.nav-link { 
-    color: #F5B6CD;
-}
+    a {
+        color: #F5B6CD;
+        transition: color 0.3s; 
+      
+        &:hover {
+          color: #232323; 
+        }
+      }
 }
 }
 
@@ -65,10 +70,14 @@ footer {
     .text-foot {
         font-family: 'ADLaM Display', cursive;  
         list-style: none;
-    a{
-        color: #232323;
-        text-decoration: none;
-    }
+        a {
+            text-decoration: none;
+            color: #232323;
+            transition: color 0.3s; 
+          
+            &:hover {
+              color: floralwhite; 
+            }
+          }
     }
 }
-

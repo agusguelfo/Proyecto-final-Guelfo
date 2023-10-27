@@ -13,8 +13,11 @@
   padding: 15px;
   position: relative;
   left: 570px; }
-  .navbar ul .nav-link {
-    color: #F5B6CD; }
+  .navbar ul a {
+    color: #F5B6CD;
+    transition: color 0.3s; }
+    .navbar ul a:hover {
+      color: #232323; }
 
 body {
   background-color: #232323; }
@@ -58,8 +61,11 @@ footer {
     font-family: 'ADLaM Display', cursive;
     list-style: none; }
     footer .text-foot a {
+      text-decoration: none;
       color: #232323;
-      text-decoration: none; }
+      transition: color 0.3s; }
+      footer .text-foot a:hover {
+        color: floralwhite; }
 
 /**Edición de Información**/
 .club-img {
